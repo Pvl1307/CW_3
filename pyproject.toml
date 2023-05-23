@@ -8,6 +8,8 @@ packages = [{include = "cw_3"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+pytest-cov = "^4.0.0"
+
 
 
 [tool.poetry.group.dev.dependencies]
