@@ -1,5 +1,4 @@
-from utils.func import get_executed_operations,get_operation_date, hiden_card_number, print_last_operation
-
+from utils.func import get_executed_operations,get_operation_date, hiden_card_number
 
 def test_get_executed_operations():
     assert get_executed_operations([{"id": 422035015, "state": "EXECUTED"}]) ==[{"id": 422035015, "state": "EXECUTED"}]
