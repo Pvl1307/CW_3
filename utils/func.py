@@ -1,7 +1,7 @@
 import json
 
 # Чтение данных из файла
-with open('operations.json', encoding='utf-8') as file:
+with open(r'C:\Users\ivano\PycharmProjects\CW_3\utils\operations.json', encoding='utf-8') as file:
     data = json.load(file)
 
 
